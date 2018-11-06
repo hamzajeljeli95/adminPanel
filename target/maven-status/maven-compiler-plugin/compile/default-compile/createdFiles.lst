@@ -1,0 +1,14 @@
+MainPackage\Beans\EventAdditionalInfos.class
+MainPackage\Util\HashGenerator.class
+MainPackage\DAOImpl\GenericDaoImpl.class
+MainPackage\DAO\UserDao.class
+MainPackage\Servlets\Authentication.class
+MainPackage\Beans\UserAdditionalInfos.class
+MainPackage\Beans\EventParticipants.class
+MainPackage\Beans\AppUser.class
+MainPackage\Beans\Event.class
+MainPackage\Beans\EventComments.class
+MainPackage\DAO\GenericDao.class
+MainPackage\DAOImpl\UserDaoImpl.class
+MainPackage\Beans\EventInfo.class
+MainPackage\Beans\UserInfo.class
