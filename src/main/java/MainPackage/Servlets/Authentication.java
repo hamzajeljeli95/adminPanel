@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
@@ -31,6 +32,7 @@ public class Authentication extends HttpServlet {
         if(myList!=null && myList.size()==1)
         {
             //request.getRequestDispatcher("/dashboard.jsp").include(request, response);
+            HttpSession session=request.getSession(true);
             response.sendRedirect("../dashboard.jsp");
         }
         else

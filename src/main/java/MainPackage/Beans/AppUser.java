@@ -10,6 +10,7 @@ public class AppUser {
     private String username;
     private String passwordHash;
     private int isConfirmed;
+    private int profile;
 
     @Id
     @Column(name = "username")
@@ -41,6 +42,16 @@ public class AppUser {
         this.isConfirmed = isConfirmed;
     }
 
+    @Basic
+    @Column(name = "profile")
+    public int getProfile() {
+        return profile;
+    }
+
+    public void setProfile(int profile) {
+        this.profile = profile;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -49,6 +60,7 @@ public class AppUser {
         AppUser appUser = (AppUser) o;
 
         if (isConfirmed != appUser.isConfirmed) return false;
+        if (profile != appUser.profile) return false;
         if (username != null ? !username.equals(appUser.username) : appUser.username != null) return false;
         if (passwordHash != null ? !passwordHash.equals(appUser.passwordHash) : appUser.passwordHash != null)
             return false;
@@ -61,6 +73,7 @@ public class AppUser {
         int result = username != null ? username.hashCode() : 0;
         result = 31 * result + (passwordHash != null ? passwordHash.hashCode() : 0);
         result = 31 * result + isConfirmed;
+        result = 31 * result + profile;
         return result;
     }
 }
