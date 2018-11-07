@@ -20,19 +20,21 @@ public class Authentication extends HttpServlet {
         UserDao userDao = new UserDaoImpl();
         String user = request.getParameter("username");
         String pwd = HashGenerator.getStringHash(request.getParameter("password"));
-        /*---------
+/*
         System.out.println("password Hash is : "+pwd);
         AppUser myuser = new AppUser();
         myuser.setUsername(user);
         myuser.setPasswordHash(pwd);
         myuser.setIsConfirmed(1);
+        myuser.setProfile(0);
         userDao.save(myuser);
-        //---------*/
+*/
         List<AppUser> myList= userDao.findAllBy2Properties("username",user,"passwordHash", pwd);
         if(myList!=null && myList.size()==1)
         {
             //request.getRequestDispatcher("/dashboard.jsp").include(request, response);
             HttpSession session=request.getSession(true);
+            session.setAttribute("isConnected","true");
             response.sendRedirect("../dashboard.jsp");
         }
         else

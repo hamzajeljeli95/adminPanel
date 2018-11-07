@@ -3,13 +3,13 @@ package MainPackage.Beans;
 import javax.persistence.*;
 
 @Entity
-public class UserAdditionalInfos {
+public class EventAdditionalInfos {
     private int id;
-    private String userId;
+    private int eventId;
     private int infoId;
     private String infoContent;
-    private AppUser appUserByUserId;
-    private UserInfo userInfoByInfoId;
+    private Event eventByEventId;
+    private EventInfo eventInfoByInfoId;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -22,13 +22,13 @@ public class UserAdditionalInfos {
     }
 
     @Basic
-    @Column(name = "userId", nullable = false, length = 64)
-    public String getUserId() {
-        return userId;
+    @Column(name = "eventId", nullable = false)
+    public int getEventId() {
+        return eventId;
     }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
+    public void setEventId(int eventId) {
+        this.eventId = eventId;
     }
 
     @Basic
@@ -56,11 +56,11 @@ public class UserAdditionalInfos {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        UserAdditionalInfos that = (UserAdditionalInfos) o;
+        EventAdditionalInfos that = (EventAdditionalInfos) o;
 
         if (id != that.id) return false;
+        if (eventId != that.eventId) return false;
         if (infoId != that.infoId) return false;
-        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
         if (infoContent != null ? !infoContent.equals(that.infoContent) : that.infoContent != null) return false;
 
         return true;
@@ -69,29 +69,29 @@ public class UserAdditionalInfos {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + (userId != null ? userId.hashCode() : 0);
+        result = 31 * result + eventId;
         result = 31 * result + infoId;
         result = 31 * result + (infoContent != null ? infoContent.hashCode() : 0);
         return result;
     }
 
     @ManyToOne
-    @JoinColumn(name = "userId", referencedColumnName = "username", nullable = false, insertable = false,updatable = false)
-    public AppUser getAppUserByUserId() {
-        return appUserByUserId;
+    @JoinColumn(name = "eventId", referencedColumnName = "id", nullable = false, insertable = false,updatable = false)
+    public Event getEventByEventId() {
+        return eventByEventId;
     }
 
-    public void setAppUserByUserId(AppUser appUserByUserId) {
-        this.appUserByUserId = appUserByUserId;
+    public void setEventByEventId(Event eventByEventId) {
+        this.eventByEventId = eventByEventId;
     }
 
     @ManyToOne
     @JoinColumn(name = "infoId", referencedColumnName = "id", nullable = false, insertable = false,updatable = false)
-    public UserInfo getUserInfoByInfoId() {
-        return userInfoByInfoId;
+    public EventInfo getEventInfoByInfoId() {
+        return eventInfoByInfoId;
     }
 
-    public void setUserInfoByInfoId(UserInfo userInfoByInfoId) {
-        this.userInfoByInfoId = userInfoByInfoId;
+    public void setEventInfoByInfoId(EventInfo eventInfoByInfoId) {
+        this.eventInfoByInfoId = eventInfoByInfoId;
     }
 }

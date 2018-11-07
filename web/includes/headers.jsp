@@ -5,7 +5,7 @@
   Time: 20:59
   To change this template use File | Settings | File Templates.
 --%>
-<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
@@ -22,4 +22,16 @@
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet"/>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<style>
+    .pagination {
+        display:inline;
+        position: center;
+    }
+    .pagination:after {
+        content:"\a";
+        white-space: pre;
+    }
+</style>
 <title>RandoCamp Administration Portal</title>
+

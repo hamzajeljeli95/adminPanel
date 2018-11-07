@@ -5,14 +5,12 @@
   Time: 20:51
   To change this template use File | Settings | File Templates.
 --%>
-<!--   Core JS Files   -->
-<script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-<!--  Charts Plugin -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/chartist.min.js"></script>
-<!--  Notifications Plugin    -->
 <script src="assets/js/bootstrap-notify.js"></script>
-<!--  Google Maps Plugin    -->
+<script src="assets/js/paginator.js" charset="utf-8"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 <script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>

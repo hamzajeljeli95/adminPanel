@@ -4,10 +4,10 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-public class UserInfo {
+public class EventInfo {
     private int id;
     private String infoType;
-    private Collection<UserAdditionalInfos> userAdditionalInfosById;
+    private Collection<EventAdditionalInfos> eventAdditionalInfosById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -34,10 +34,10 @@ public class UserInfo {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        UserInfo userInfo = (UserInfo) o;
+        EventInfo eventInfo = (EventInfo) o;
 
-        if (id != userInfo.id) return false;
-        if (infoType != null ? !infoType.equals(userInfo.infoType) : userInfo.infoType != null) return false;
+        if (id != eventInfo.id) return false;
+        if (infoType != null ? !infoType.equals(eventInfo.infoType) : eventInfo.infoType != null) return false;
 
         return true;
     }
@@ -49,12 +49,12 @@ public class UserInfo {
         return result;
     }
 
-    @OneToMany(mappedBy = "userInfoByInfoId")
-    public Collection<UserAdditionalInfos> getUserAdditionalInfosById() {
-        return userAdditionalInfosById;
+    @OneToMany(mappedBy = "eventInfoByInfoId")
+    public Collection<EventAdditionalInfos> getEventAdditionalInfosById() {
+        return eventAdditionalInfosById;
     }
 
-    public void setUserAdditionalInfosById(Collection<UserAdditionalInfos> userAdditionalInfosById) {
-        this.userAdditionalInfosById = userAdditionalInfosById;
+    public void setEventAdditionalInfosById(Collection<EventAdditionalInfos> eventAdditionalInfosById) {
+        this.eventAdditionalInfosById = eventAdditionalInfosById;
     }
 }

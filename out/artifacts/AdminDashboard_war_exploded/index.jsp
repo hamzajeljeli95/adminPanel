@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="fr">
+<%
+if(request.getSession(false).getAttribute("isConnected")!=null&&request.getSession(false).getAttribute("isConnected").equals("true"))
+{
+    response.sendRedirect("dashboard.jsp");
+}
+%>
 <head>
     <%@include file="includes/headers.jsp" %>
 </head>
@@ -27,7 +33,7 @@
                                                         <div class="row">
 
                                                             <div class="form-group">
-                                                                <label>Npm d'utilisateur</label>
+                                                                <label>Nom d'utilisateur</label>
                                                                 <input type="text" name="username" class="form-control"
                                                                        placeholder="login">
                                                             </div>
@@ -37,7 +43,8 @@
 
                                                             <div class="form-group">
                                                                 <label>Mot de passe</label>
-                                                                <input type="password" class="form-control" placeholder="password" name="password">
+                                                                <input type="password" class="form-control"
+                                                                       placeholder="password" name="password">
                                                             </div>
                                                         </div>
                                                         <button type="submit" class="btn btn-info btn-fill center-pill">
