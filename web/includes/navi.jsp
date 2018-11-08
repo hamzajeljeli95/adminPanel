@@ -12,6 +12,12 @@
         </a>
     </li>
     <li>
+        <a href="extrauserinfos.jsp">
+            <i class="pe-7s-id"></i>
+            <p>Catégories des informations d'utilisateurs additionelles</p>
+        </a>
+    </li>
+    <li>
         <a href="evenement.jsp">
             <i class="pe-7s-note2"></i>
             <p>Evenements</p>

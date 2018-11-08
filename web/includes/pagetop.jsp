@@ -5,11 +5,10 @@
   Time: 12:43
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
-
 <html lang="fr">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script>
         function loginError() {
             alert("Vous n'êtes pas connecté, Vous allez être redirigé vers la page de connexion.");

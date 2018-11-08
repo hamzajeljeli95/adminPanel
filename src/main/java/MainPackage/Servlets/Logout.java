@@ -11,7 +11,7 @@ import java.io.IOException;
 @WebServlet("/Servlets/Logout")
 public class Logout extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        response.sendRedirect("../index.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

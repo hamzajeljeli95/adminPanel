@@ -6,6 +6,7 @@
                 <div class="header">
                     <h4 class="title">Utilisateurs</h4>
                     <p class="category">Liste des utilisateurs</p>
+                    <a href="addedituser.jsp"><button class="btn btn-default pull-right">Ajouter</button></a>
                 </div>
                 <div class="content table-responsive table-full-width">
                     <table id="mytable" class="table table-striped table-bordered table-sm" cellspacing="0"

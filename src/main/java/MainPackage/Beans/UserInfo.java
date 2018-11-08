@@ -1,5 +1,7 @@
 package MainPackage.Beans;
 
+import sun.nio.cs.Surrogate;
+
 import javax.persistence.*;
 import java.util.Collection;
 
@@ -11,6 +13,7 @@ public class UserInfo {
 
     @Id
     @Column(name = "id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getId() {
         return id;
     }

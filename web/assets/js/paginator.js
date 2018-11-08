@@ -256,7 +256,7 @@ function paginator(config) {
 
     // status message
     var stat = document.createElement("span");
-    stat.innerHTML = "  Page " + page + " sur " + pages
+    stat.innerHTML = "  éléments par page<br/>Page " + page + " sur " + pages
         + ", élément " + (((page - 1) * rows_per_page) + 1)
         + " jusqu'à " + (trs.length < page * rows_per_page || rows_per_page == 0 ? trs.length : page * rows_per_page)
         + " sur " + trs.length;
