@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/Authentication.class" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/Authentication.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/Authentication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/addedituser.jsp" afterPath="$PROJECT_DIR$/web/addedituser.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +35,8 @@
       <file leaf-file-name="Authentication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="75" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+            <state relative-caret-position="350">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -451,12 +443,12 @@
       <workItem from="1541702205525" duration="1198000" />
       <workItem from="1541756800182" duration="384000" />
       <workItem from="1541757266926" duration="69000" />
-      <workItem from="1541931732397" duration="1368000" />
+      <workItem from="1541931732397" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56762000" />
+    <option name="totallyTimeSpent" value="56913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-232" width="1296" height="1000" extended-state="6" />
@@ -471,8 +463,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24915445" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20361991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915445" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24464487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31484374" sideWeight="0.25245097" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20234375" sideWeight="0.53846157" order="0" side_tool="false" content_ui="combo" />
@@ -842,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="75" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+        <state relative-caret-position="350">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding />
         </state>
       </provider>
