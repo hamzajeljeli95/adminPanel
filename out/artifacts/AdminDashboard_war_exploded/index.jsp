@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="fr">
 <%
-if(request.getSession(false).getAttribute("isConnected")!=null&&request.getSession(false).getAttribute("isConnected").equals("true"))
-{
-    response.sendRedirect("dashboard.jsp");
-}
+    if (request.getSession(false).getAttribute("isConnected") != null && request.getSession(false).getAttribute("isConnected").equals("true")) {
+        response.sendRedirect("dashboard.jsp");
+    }
 %>
 <head>
     <%@include file="includes/headers.jsp" %>
@@ -65,5 +64,12 @@ if(request.getSession(false).getAttribute("isConnected")!=null&&request.getSessi
         </div>
     </div>
 </div>
+<%
+    if (request.getParameter("error")!=null&&request.getParameter("error").equals("pwd")) {
+%>
+<script>alert("Nom d'utilisateur/Mot de passe erroné !");</script>
+<%
+    }
+%>
 </body>
 </html>

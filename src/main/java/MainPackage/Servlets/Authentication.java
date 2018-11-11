@@ -39,7 +39,7 @@ public class Authentication extends HttpServlet {
         }
         else
         {
-            response.sendRedirect(request.getHeader("referer"));
+            response.sendRedirect(request.getHeader("referer")+"?error=pwd");
         }
     }
 
