@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="MainPackage.Beans.EventAdditionalInfos" table="EventAdditionalInfos" schema="dbo"
+           catalog="CampRandoApp">
+        <composite-id mapped="true" class="MainPackage.Beans.EventAdditionalInfosPK">
+            <key-property name="id">
+                <column name="id" sql-type="int"/>
+            </key-property>
+            <key-property name="eventId">
+                <column name="eventId" sql-type="int"/>
+            </key-property>
+            <key-property name="infoId">
+                <column name="infoId" sql-type="int"/>
+            </key-property>
+        </composite-id>
+        <property name="infoContent">
+            <column name="InfoContent" sql-type="varchar(max)" length="2147483647"/>
+        </property>
+        <many-to-one name="eventByEventId" class="MainPackage.Beans.Event">
+            <column name="eventId"/>
+        </many-to-one>
+        <many-to-one name="eventInfoByInfoId" class="MainPackage.Beans.EventInfo">
+            <column name="infoId"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

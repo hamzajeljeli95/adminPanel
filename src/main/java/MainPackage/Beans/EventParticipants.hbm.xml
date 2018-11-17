@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="MainPackage.Beans.EventParticipants" table="EventParticipants" schema="dbo" catalog="CampRandoApp">
+        <id name="id">
+            <column name="id" sql-type="int"/>
+        </id>
+        <property name="eventId">
+            <column name="eventId" sql-type="int"/>
+        </property>
+        <property name="participantId">
+            <column name="participantId" sql-type="varchar(64)" length="64"/>
+        </property>
+        <many-to-one name="eventByEventId" class="MainPackage.Beans.Event">
+            <column name="eventId"/>
+        </many-to-one>
+        <many-to-one name="appUserByParticipantId" class="MainPackage.Beans.AppUser">
+            <column name="participantId"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

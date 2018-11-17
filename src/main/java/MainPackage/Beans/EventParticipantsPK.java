@@ -1,19 +1,16 @@
 package MainPackage.Beans;
 
 import javax.persistence.Column;
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
+import java.io.Serializable;
 
-@Entity
-@IdClass(EventParticipantsPK.class)
-public class EventParticipants {
+public class EventParticipantsPK implements Serializable {
     private int id;
     private int eventId;
     private String participantId;
 
-    @Id
     @Column(name = "id", nullable = false)
+    @Id
     public int getId() {
         return id;
     }
@@ -22,8 +19,8 @@ public class EventParticipants {
         this.id = id;
     }
 
-    @Id
     @Column(name = "eventId", nullable = false)
+    @Id
     public int getEventId() {
         return eventId;
     }
@@ -32,8 +29,8 @@ public class EventParticipants {
         this.eventId = eventId;
     }
 
-    @Id
     @Column(name = "participantId", nullable = false, length = 64)
+    @Id
     public String getParticipantId() {
         return participantId;
     }
@@ -47,7 +44,7 @@ public class EventParticipants {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        EventParticipants that = (EventParticipants) o;
+        EventParticipantsPK that = (EventParticipantsPK) o;
 
         if (id != that.id) return false;
         if (eventId != that.eventId) return false;

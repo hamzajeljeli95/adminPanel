@@ -1,19 +1,17 @@
 package MainPackage.Beans;
 
-import sun.nio.cs.Surrogate;
-
-import javax.persistence.*;
-import java.util.Collection;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class UserInfo {
     private int id;
     private String infoType;
-    private Collection<UserAdditionalInfos> userAdditionalInfosById;
 
     @Id
     @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getId() {
         return id;
     }
@@ -50,14 +48,5 @@ public class UserInfo {
         int result = id;
         result = 31 * result + (infoType != null ? infoType.hashCode() : 0);
         return result;
-    }
-
-    @OneToMany(mappedBy = "userInfoByInfoId")
-    public Collection<UserAdditionalInfos> getUserAdditionalInfosById() {
-        return userAdditionalInfosById;
-    }
-
-    public void setUserAdditionalInfosById(Collection<UserAdditionalInfos> userAdditionalInfosById) {
-        this.userAdditionalInfosById = userAdditionalInfosById;
     }
 }

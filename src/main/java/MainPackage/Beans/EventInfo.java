@@ -1,13 +1,14 @@
 package MainPackage.Beans;
 
-import javax.persistence.*;
-import java.util.Collection;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class EventInfo {
     private int id;
     private String infoType;
-    private Collection<EventAdditionalInfos> eventAdditionalInfosById;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -47,14 +48,5 @@ public class EventInfo {
         int result = id;
         result = 31 * result + (infoType != null ? infoType.hashCode() : 0);
         return result;
-    }
-
-    @OneToMany(mappedBy = "eventInfoByInfoId")
-    public Collection<EventAdditionalInfos> getEventAdditionalInfosById() {
-        return eventAdditionalInfosById;
-    }
-
-    public void setEventAdditionalInfosById(Collection<EventAdditionalInfos> eventAdditionalInfosById) {
-        this.eventAdditionalInfosById = eventAdditionalInfosById;
     }
 }

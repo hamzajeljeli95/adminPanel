@@ -1,6 +1,9 @@
 package MainPackage.Beans;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Date;
 
 @Entity
@@ -10,8 +13,6 @@ public class EventComments {
     private String idUser;
     private String commentContent;
     private Date dateTimeComment;
-    private Event eventByIdEvent;
-    private AppUser appUserByIdUser;
 
     @Id
     @Column(name = "id", nullable = false)
@@ -89,25 +90,5 @@ public class EventComments {
         result = 31 * result + (commentContent != null ? commentContent.hashCode() : 0);
         result = 31 * result + (dateTimeComment != null ? dateTimeComment.hashCode() : 0);
         return result;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "idEvent", referencedColumnName = "id", nullable = false, insertable = false,updatable = false)
-    public Event getEventByIdEvent() {
-        return eventByIdEvent;
-    }
-
-    public void setEventByIdEvent(Event eventByIdEvent) {
-        this.eventByIdEvent = eventByIdEvent;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "idUser", referencedColumnName = "username", nullable = false, insertable = false,updatable = false)
-    public AppUser getAppUserByIdUser() {
-        return appUserByIdUser;
-    }
-
-    public void setAppUserByIdUser(AppUser appUserByIdUser) {
-        this.appUserByIdUser = appUserByIdUser;
     }
 }
