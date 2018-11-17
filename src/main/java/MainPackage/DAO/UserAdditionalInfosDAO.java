@@ -1,4 +1,6 @@
 package MainPackage.DAO;
 
-public interface UserAdditionalInfosDAO {
+import MainPackage.Beans.UserAdditionalInfos;
+
+public interface UserAdditionalInfosDAO extends GenericDao<UserAdditionalInfos,Integer> {
 }

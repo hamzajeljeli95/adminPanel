@@ -21,7 +21,7 @@
                     </p>
                 </div>
                 <div class="content">
-                    <form method="post" action="./Servlets/AddEditUserInfos">
+                    <form method="post" action="./Servlets/AddEditUser">
                         <div class="form-group">
                             <label for="username">Nom d'utilisateur</label>
                             <input type="text" required class="form-control" id="username" name="username"
@@ -68,8 +68,10 @@
                         <p class="category">Informations complémentaires</p>
                         <br/>
                         <%
+                            int count = 0;
                             UserInfoDAO userInfo = new UserInfoDAOImpl();
                             for (UserInfo u : userInfo.findAll()) {
+                                count++;
                                 String inputType="text";
                                 if(u.getInfoType().toLowerCase().contains("date"))
                                 {
@@ -82,11 +84,12 @@
                         %>
                         <div class="form-group">
                             <label for="userAddInfo<%=u.getId()%>"><%=u.getInfoType()%></label>
-                            <input type="<%=inputType%>" class="form-control" id="userAddInfo<%=u.getId()%>" name="userAddInfo<%=u.getId()%>"/>
+                            <input type="<%=inputType%>" required class="form-control" id="userAddInfo<%=u.getId()%>" name="userAddInfo<%=u.getId()%>"/>
                         </div>
                         <%
                             }
                         %>
+                        <input hidden value="<%=count%>" name="extraDataLength"/>
                         <button type="submit" class="btn btn-primary">Soumettre</button>
                     </form>
                     <br/>
