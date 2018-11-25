@@ -1,6 +1,12 @@
 <%@ page import="MainPackage.Beans.UserInfo" %>
 <%@ page import="MainPackage.DAO.UserInfoDAO" %>
 <%@ page import="MainPackage.DAOImpl.UserInfoDAOImpl" %>
+<%@ page import="MainPackage.Beans.AppUser" %>
+<%@ page import="MainPackage.Beans.UserAdditionalInfos" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="MainPackage.DAOImpl.UserDaoImpl" %>
+<%@ page import="MainPackage.DAOImpl.UserAdditionalInfosDAOImpl" %>
 <%@include file="/includes/pagetop.jsp" %>
 <div class="container-fluid">
     <div class="row">
@@ -10,15 +16,31 @@
                     <h4 class="title">Utilisateurs</h4>
                     <%
                         String urlParameter = request.getParameter("userId");
+                        String viewType = request.getParameter("userAction");
                         String text = "";
+                        boolean isReadonly = false;
+                        boolean isEditMode = false;
+                        boolean isIdFound = false;
+                        AppUser currAppUser = new AppUser();
+                        List<UserAdditionalInfos> additionalInfos = new ArrayList<UserAdditionalInfos>();
                         if (urlParameter == null || urlParameter.length() == 0) {
                             text = "Ajouter un utilisateur";
-                        } else {
+                        } else  if (viewType != null && viewType.equalsIgnoreCase("view")) {
+                            text = "Afficher un utilisateur";
+                            isReadonly = true;
+                            isIdFound=true;
+                        }else{
                             text = "Modifier un utilisateur";
+                            isIdFound=true;
+                            isEditMode = true;
+                        }
+                        if(isIdFound)
+                        {
+                            currAppUser = new UserDaoImpl().findAllBy1Properties("username",urlParameter).get(0);
+                            additionalInfos = new UserAdditionalInfosDAOImpl().findAllBy1Properties("userId",urlParameter);
                         }
                     %>
-                    <p class="category"><%= text %>
-                    </p>
+                    <p class="category"><%= text %></p>
                 </div>
                 <div class="content">
                     <form method="post" action="./Servlets/AddEditUser">
@@ -72,25 +94,52 @@
                             UserInfoDAO userInfo = new UserInfoDAOImpl();
                             for (UserInfo u : userInfo.findAll()) {
                                 count++;
-                                String inputType="text";
-                                if(u.getInfoType().toLowerCase().contains("date"))
-                                {
-                                    inputType="date";
-                                }
-                                else if(u.getInfoType().toLowerCase().contains("mail"))
-                                {
-                                    inputType="email";
+                                String inputType = "text";
+                                if (u.getInfoType().toLowerCase().contains("date")) {
+                                    inputType = "date";
+                                } else if (u.getInfoType().toLowerCase().contains("mail")) {
+                                    inputType = "email";
                                 }
                         %>
                         <div class="form-group">
-                            <label for="userAddInfo<%=u.getId()%>"><%=u.getInfoType()%></label>
-                            <input type="<%=inputType%>" required class="form-control" id="userAddInfo<%=u.getId()%>" name="userAddInfo<%=u.getId()%>"/>
+                            <label for="userAddInfo<%=u.getId()%>"><%=u.getInfoType()%>
+                            </label>
+                            <input type="<%=inputType%>" required class="form-control" id="userAddInfo<%=u.getId()%>"
+                                   name="userAddInfo<%=u.getId()%>" value="<%
+                                   for(UserAdditionalInfos infos : additionalInfos)
+                                       {
+                                           if(infos.getInfoId()==u.getId())
+                                               {
+                                                   out.println(infos.getInfoContent());
+                                                   break;
+                                               }
+                                       }
+                                   %>" <%  if (isReadonly) {
+                                out.println("disabled");
+                            }%>/>
                         </div>
                         <%
                             }
                         %>
                         <input hidden value="<%=count%>" name="extraDataLength"/>
-                        <button type="submit" class="btn btn-primary">Soumettre</button>
+                        <input hidden value="<%
+                            if(isEditMode)
+                                {
+                                     out.println("edit");
+                                }
+                               else
+                               {
+                                    out.println("new");
+                               }
+
+                            %>" name="operation"/>
+
+                        <input type="submit" <%
+                            if (isReadonly) {
+                                out.print(" disabled ");
+                            }
+                        %> class="btn btn-primary"/>
+
                     </form>
                     <br/>
                     <a href="users.jsp">

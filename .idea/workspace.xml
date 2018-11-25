@@ -7,54 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9798fb31-13ce-40f3-adc8-112d97d72cb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9798fb31-13ce-40f3-adc8-112d97d72cb8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9798fb31-13ce-40f3-adc8-112d97d72cb8/storage_v2/_src_/database/CampRandoApp.mEoiYg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9798fb31-13ce-40f3-adc8-112d97d72cb8/storage_v2/_src_/database/CampRandoApp.mEoiYg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdminDashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdminDashboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/AppUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventAdditionalInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventComments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventComments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventParticipants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/GenericDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUserInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUserInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/hibernate-core-4.2.21.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUserInfos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUserInfos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/AppUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventAdditionalInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventComments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/EventParticipants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserAdditionalInfos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Beans/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/DAOImpl/GenericDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUserInfos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUserInfos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminDashboard-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/addedituser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addedituser.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,108 +44,25 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1695693758">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="9" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java">
+        <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-              <folding>
-                <element signature="e#1621#1642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="374">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1666">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="289">
+              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#729#2201#0#JSP" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUserInfos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserInfoDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserInfoDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -186,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="68">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,10 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -253,11 +146,8 @@
         <option value="$PROJECT_DIR$/web/users.jsp" />
         <option value="$PROJECT_DIR$/web/addedituserinfo.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/addedituser.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" />
         <option value="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserInfoDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserInfoDAO.java" />
@@ -266,17 +156,14 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUserInfos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" />
+        <option value="$PROJECT_DIR$/web/addedituser.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -295,12 +182,12 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="531" />
-    <option name="y" value="277" />
-    <option name="width" value="1292" />
-    <option name="height" value="812" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,8 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,52 +204,12 @@
               <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,9 +220,10 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/MainPackage/Beans" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24482758" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -404,7 +250,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -416,9 +262,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AdminDashboard_war_exploded/" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="GlassFish 4.1.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="AdminDashboard:war exploded">
           <settings />
@@ -432,7 +277,79 @@
         <option name="USERNAME" value="admin" />
         <option name="PASSWORD" value="" />
       </server-settings>
-      <predefined_log_file id="GlassFish" enabled="true" />
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AdminDashboard:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AdminDashboard_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AdminDashboard:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
@@ -494,7 +411,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -502,11 +419,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -538,58 +455,63 @@
       <workItem from="1542027967137" duration="2587000" />
       <workItem from="1542359334326" duration="8104000" />
       <workItem from="1542442608090" duration="87000" />
-      <workItem from="1542484200814" duration="2316000" />
+      <workItem from="1542484200814" duration="4759000" />
+      <workItem from="1542535775397" duration="12584000" />
+      <workItem from="1542615471197" duration="158000" />
+      <workItem from="1543145540166" duration="724000" />
+      <workItem from="1543146360904" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77530000" />
+    <option name="totallyTimeSpent" value="94644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69213974" visible="true" weight="0.32281554" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77692306" visible="true" weight="0.2184466" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.47782257" side_tool="true" weight="0.3171875" />
-      <window_info id="Persistence" order="3" sideWeight="0.30786026" side_tool="true" visible="true" weight="0.32281554" />
+      <window_info id="Persistence" order="3" sideWeight="0.22307692" side_tool="true" visible="true" weight="0.2184466" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Maven Repo Search" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" weight="0.43146417" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.496875" visible="true" weight="0.4027565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.35358256" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28660437" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3524721" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28548643" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503125" side_tool="true" weight="0.3404735" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32919955" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.25267994" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Maven Repo Search" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="CDI" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AuthServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Hibernate.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/RequestDispatcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -617,27 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/documentation/tutorial-components.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="55" column="127" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="76" column="129" selection-start-line="76" selection-start-column="129" selection-end-line="76" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/paginator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -677,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addedituserinfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -729,41 +623,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="98" selection-start-line="59" selection-start-column="90" selection-end-line="59" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/GenericDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,46 +642,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/MainPackage/Beans/UserInfo.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/MainPackage/Beans/UserAdditionalInfos.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/MainPackage/Beans/EventAdditionalInfos.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -833,16 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-          <folding>
-            <element signature="e#1621#1642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -896,10 +706,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/GenericDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1666">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="238">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipantsPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfosPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventParticipants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfosPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventAdditionalInfos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addedituserinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <element signature="e#729#2201#0#JSP" />
           </folding>
         </state>
       </provider>
@@ -914,7 +846,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2862069" />
+                <option value="0.24482758" />
                 <option value="0.5" />
               </list>
             </option>
@@ -923,7 +855,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA (AdminDashboard)|JPA</last-edited>
+          <last-edited>Hibernate (AdminDashboard)|Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

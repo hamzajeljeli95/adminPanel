@@ -55,7 +55,6 @@ public class AddEditUser extends HttpServlet {
         for(UserAdditionalInfos info : additionalInfos){
             dao.saveOrUpdate(info);
         }
-
         response.sendRedirect("../users.jsp");
     }
 
