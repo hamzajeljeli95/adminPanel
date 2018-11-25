@@ -2,17 +2,149 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="AdminDashboard:war exploded" />
+      <artifact name="AdminDashboard:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="Implementing Events">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdminDashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdminDashboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/AppUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventAdditionalInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventAdditionalInfosPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventParticipants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/EventParticipantsPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserAdditionalInfosPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Beans/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/EventAdditionalInfosDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/EventDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/EventsInfoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/UserAdditionalInfosDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAO/UserInfoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/EventAdditionalInfosDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/EventDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/EventsInfoDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/GenericDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/UserAdditionalInfosDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/DAOImpl/UserInfoDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditEventInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUserInfos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/Logout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Util/HashGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/hibernate.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addediteventinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituserinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/css/light-bootstrap-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/css/pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/face-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/faces/tim_vector.jpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/full-screen-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/sidebar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/img/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/jquery.3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/light-bootstrap-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/js/paginator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_checkbox-radio-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_morphing-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/lbd/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP400.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP501.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP502.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP503.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP520.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP521.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/errorpages/HTTP533.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/evenement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/extraeventsinfos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/extrauserinfos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/footers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/headers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/navi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/pagebuttom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/pagetop.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/old.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/users.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminDashboard-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminDashboard-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +192,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+            <state relative-caret-position="186">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -252,71 +384,6 @@
               <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="Beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="DAOImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -331,9 +398,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/MainPackage/Beans" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24482758" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -581,7 +648,7 @@
       <workItem from="1543146360904" duration="13016000" />
       <workItem from="1543166335682" duration="1967000" />
       <workItem from="1543170162069" duration="5844000" />
-      <workItem from="1543179588527" duration="4141000" />
+      <workItem from="1543179588527" duration="5425000" />
     </task>
     <task id="LOCAL-00001" summary="Implementing Events">
       <created>1543168890276</created>
@@ -594,11 +661,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118407000" />
+    <option name="totallyTimeSpent" value="119691000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1290" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7708333" visible="true" weight="0.31553397" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -614,13 +689,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.29709035" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.39050537" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48545176" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503125" side_tool="true" weight="0.3404735" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.25267994" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32924962" />
       <window_info anchor="bottom" id="Maven Repo Search" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
@@ -1013,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state relative-caret-position="186">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
