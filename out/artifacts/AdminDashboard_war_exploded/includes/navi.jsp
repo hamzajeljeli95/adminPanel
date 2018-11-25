@@ -23,4 +23,10 @@
             <p>Evenements</p>
         </a>
     </li>
+    <li>
+        <a href="extraeventsinfos.jsp">
+            <i class="pe-7s-id"></i>
+            <p>Catégories des informations des événements additionelles</p>
+        </a>
+    </li>
 </ul>

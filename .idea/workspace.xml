@@ -6,12 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/AddEventsInfoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/AddEventsInfoDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/extraeventsinfos.jsp" afterDir="false" />
+    <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="Implementing Events">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventsInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventsInfoDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/includes/navi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/includes/navi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/navi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/includes/navi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAO/AddEventsInfoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/AddEventsInfoDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/extraeventsinfos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/extraeventsinfos.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,59 +38,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/includes/navi.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="28" column="71" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/extraeventsinfos.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="102">
+              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/AddEventsInfoDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/AddEventsInfoDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="55" />
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventsInfoDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventsInfoDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="87" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -159,9 +144,11 @@
         <option value="$PROJECT_DIR$/web/addedituser.jsp" />
         <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/includes/navi.jsp" />
-        <option value="$PROJECT_DIR$/web/extraeventsinfos.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/AddEventsInfoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/AddEventsInfoDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventsInfoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventsInfoDAOImpl.java" />
+        <option value="$PROJECT_DIR$/web/extraeventsinfos.jsp" />
       </list>
     </option>
   </component>
@@ -205,55 +192,6 @@
             <path>
               <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPackage" type="462c0819:PsiDirectoryNode" />
-              <item name="DAOImpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -509,34 +447,42 @@
       <workItem from="1542615471197" duration="158000" />
       <workItem from="1543145540166" duration="724000" />
       <workItem from="1543146360904" duration="13016000" />
-      <workItem from="1543166335682" duration="720000" />
+      <workItem from="1543166335682" duration="1967000" />
+      <workItem from="1543170162069" duration="655000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementing Events">
+      <created>1543168890276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543168890276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107175000" />
+    <option name="totallyTimeSpent" value="109077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7745665" visible="true" weight="0.24271844" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77014923" visible="true" weight="0.31634304" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.47782257" side_tool="true" weight="0.3171875" />
-      <window_info id="Persistence" order="3" sideWeight="0.22543353" side_tool="true" visible="true" weight="0.24271844" />
+      <window_info id="Persistence" order="3" sideWeight="0.22985074" side_tool="true" visible="true" weight="0.31634304" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="JavaEE:App" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" weight="0.381317" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" visible="true" weight="0.2588055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3524721" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20520674" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.29709035" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48698315" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503125" side_tool="true" weight="0.3404735" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.25267994" />
@@ -558,6 +504,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Implementing Events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Events" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -722,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -861,27 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/includes/navi.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/extraeventsinfos.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="87" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -892,17 +821,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/AddEventsInfoDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/UserAdditionalInfosDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="82" />
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/AddEventsInfoDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/includes/navi.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+        <state relative-caret-position="403">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/extraeventsinfos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAO/EventsInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/EventsInfoDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
