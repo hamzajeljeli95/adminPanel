@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AdminDashboard:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AdminDashboard</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AdminDashboard-1.0.war">
+      <element id="artifact" artifact-name="AdminDashboard:war exploded" />
+    </root>
+  </artifact>
+</component>
