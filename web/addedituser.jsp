@@ -25,35 +25,50 @@
                         List<UserAdditionalInfos> additionalInfos = new ArrayList<UserAdditionalInfos>();
                         if (urlParameter == null || urlParameter.length() == 0) {
                             text = "Ajouter un utilisateur";
-                        } else  if (viewType != null && viewType.equalsIgnoreCase("view")) {
+                        } else if (viewType != null && viewType.equalsIgnoreCase("view")) {
                             text = "Afficher un utilisateur";
                             isReadonly = true;
-                            isIdFound=true;
-                        }else{
+                            isIdFound = true;
+                        } else {
                             text = "Modifier un utilisateur";
-                            isIdFound=true;
+                            isIdFound = true;
                             isEditMode = true;
                         }
-                        if(isIdFound)
-                        {
-                            currAppUser = new UserDaoImpl().findAllBy1Properties("username",urlParameter).get(0);
-                            additionalInfos = new UserAdditionalInfosDAOImpl().findAllBy1Properties("userId",urlParameter);
+                        if (isIdFound) {
+                            currAppUser = new UserDaoImpl().findAllBy1Properties("username", urlParameter).get(0);
+                            additionalInfos = new UserAdditionalInfosDAOImpl().findAllBy1Properties("userId", urlParameter);
                         }
                     %>
-                    <p class="category"><%= text %></p>
+                    <p class="category"><%= text %>
+                    </p>
                 </div>
                 <div class="content">
                     <form method="post" action="./Servlets/AddEditUser">
                         <div class="form-group">
                             <label for="username">Nom d'utilisateur</label>
                             <input type="text" required class="form-control" id="username" name="username"
-                                   aria-describedby="help"/>
+                                   aria-describedby="help" <%
+                                if (isIdFound) {
+                                    out.println("value='" + currAppUser.getUsername() + "' disabled");
+                                }
+                            %>/>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" <%
+                            if (isEditMode == false) {
+                                out.println("disabled");
+                            }
+                        %>>
                             <label for="passwordField">Mot de passe</label>
                             <input type="password" required class="form-control" id="passwordField" name="password"
-                                   aria-describedby="help"/>
-                            <label><input type="checkbox" id="showPassword" onclick="showPwd()">Afficher de mot de passe</label>
+                                   aria-describedby="help" <%
+                                if (isIdFound) {
+                                    out.println("value='" + currAppUser.getPasswordHash() + "' disabled");
+                                }
+                            %> />
+                            <label><input type="checkbox" id="showPassword" onclick="showPwd()"  <%
+                                if (isIdFound) {
+                                    out.println("disabled");
+                                }%>>Afficher de mot de passe</label>
                             <script>
                                 function showPwd() {
                                     var x = document.getElementById("passwordField");
@@ -69,22 +84,63 @@
                             <label class="form-check-label">Type du compte</label>
                             <div class="form-check">
                                 <label><input class="form-check-input" type="radio" name="accType" value="1"
-                                              id="radio11" checked>Utilisateur Standard</label>
+                                              id="radio11"
+                                    <% if(isIdFound)
+                                {
+                                    if(currAppUser.getProfile()==1)
+                                        {
+                                            out.println("checked");
+                                        }
+                                    if(isEditMode==false)
+                            {
+                                out.println("disabled");
+                            }
+                                }%>> Utilisateur Standard</label>
                             </div>
                             <div class="form-check">
                                 <label><input class="form-check-input" type="radio" name="accType" value="0"
-                                              id="radio12">Administrateur</label>
+                                              id="radio12" <% if(isIdFound)
+                                {
+                                    if(currAppUser.getProfile()==0)
+                                        {
+                                            out.println("checked");
+                                        }
+                                    if(isEditMode==false)
+                            {
+                                out.println("disabled");
+                            }
+                                } %>>Administrateur</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="form-check-label">Activer le compte</label>
                             <div class="form-check">
                                 <label><input class="form-check-input" type="radio" name="accActiv" value="1"
-                                              id="radio21" checked>Oui</label>
+                                              id="radio21" <% if(isIdFound)
+                                {
+                                    if(currAppUser.getIsConfirmed()==1)
+                                        {
+                                            out.println("checked");
+                                        }
+                                    if(isEditMode==false)
+                            {
+                                out.println("disabled");
+                            }
+                                } %>>Oui</label>
                             </div>
                             <div class="form-check">
                                 <label><input class="form-check-input" type="radio" name="accActiv" value="0"
-                                              id="radio22">Non</label>
+                                              id="radio22" <% if(isIdFound)
+                                {
+                                    if(currAppUser.getIsConfirmed()==0)
+                                        {
+                                            out.println("checked");
+                                        }
+                                    if(isEditMode==false)
+                            {
+                                out.println("disabled");
+                            }
+                                } %>>Non</label>
                             </div>
                         </div>
                         <p class="category">Informations complémentaires</p>
@@ -95,7 +151,7 @@
                             for (UserInfo u : userInfo.findAll()) {
                                 count++;
                                 String inputType = "text";
-                                if (u.getInfoType().toLowerCase().contains("date")) {
+                                if (u.getInfoType().toLowerCase().contains("date") && (urlParameter == null || urlParameter.length() == 0)) {
                                     inputType = "date";
                                 } else if (u.getInfoType().toLowerCase().contains("mail")) {
                                     inputType = "email";
@@ -114,7 +170,7 @@
                                                    break;
                                                }
                                        }
-                                   %>" <%  if (isReadonly) {
+                                   %>" <% if (isReadonly) {
                                 out.println("disabled");
                             }%>/>
                         </div>

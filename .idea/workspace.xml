@@ -7,22 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76dfddd-a57f-4188-a4ea-7e90793fba7a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AdminDashboard_ear_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdminDashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdminDashboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/WEB-INF/classes/MainPackage/Servlets/AddEditUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AdminDashboard-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainPackage/Servlets/AddEditUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/users.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/addedituser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addedituser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/users.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,59 +38,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-              <folding>
-                <element signature="e#729#2201#0#JSP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/AppUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +46,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -143,7 +85,6 @@
         <option value="$PROJECT_DIR$/web/includes/pagetop.jsp" />
         <option value="$PROJECT_DIR$/web/extrauserinfos.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserInfo.java" />
-        <option value="$PROJECT_DIR$/web/users.jsp" />
         <option value="$PROJECT_DIR$/web/addedituserinfo.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/UserAdditionalInfos.java" />
@@ -161,7 +102,9 @@
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Beans/EventComments.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainPackage/Servlets/AddEditUser.java" />
+        <option value="$PROJECT_DIR$/web/users.jsp" />
         <option value="$PROJECT_DIR$/web/addedituser.jsp" />
+        <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -203,6 +146,26 @@
             <path>
               <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminDashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,32 +422,33 @@
       <workItem from="1542535775397" duration="12584000" />
       <workItem from="1542615471197" duration="158000" />
       <workItem from="1543145540166" duration="724000" />
-      <workItem from="1543146360904" duration="1205000" />
+      <workItem from="1543146360904" duration="9867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94644000" />
+    <option name="totallyTimeSpent" value="103306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77692306" visible="true" weight="0.2184466" />
+      <window_info id="JavaEE:App" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7772277" visible="true" weight="0.2184466" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.47782257" side_tool="true" weight="0.3171875" />
-      <window_info id="Persistence" order="3" sideWeight="0.22307692" side_tool="true" visible="true" weight="0.2184466" />
+      <window_info id="Persistence" order="3" sideWeight="0.22277227" side_tool="true" visible="true" weight="0.2184466" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.496875" visible="true" weight="0.4027565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" visible="true" weight="0.381317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3524721" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28548643" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25114855" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503125" side_tool="true" weight="0.3404735" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.25267994" />
@@ -512,24 +476,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/RequestDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/evenement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/users.html" />
     <entry file="file://$PROJECT_DIR$/web/assets/js/table.js" />
     <entry file="file://$PROJECT_DIR$/web/includes/pagebuttom.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -795,16 +734,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPackage/DAOImpl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="85">
           <caret line="5" column="55" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -828,13 +760,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/addedituser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="e#729#2201#0#JSP" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/AdminDashboard_war_exploded/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addedituser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="119" column="33" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/errorpages/HTTP400.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -855,7 +825,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate (AdminDashboard)|Hibernate</last-edited>
+          <last-edited>Web (AdminDashboard)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -890,12 +860,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AdminDashboard</last-edited>
+          <last-edited>Web|AdminDashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.24482758" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
