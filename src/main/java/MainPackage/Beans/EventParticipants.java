@@ -1,9 +1,6 @@
 package MainPackage.Beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.IdClass;
+import javax.persistence.*;
 
 @Entity
 @IdClass(EventParticipantsPK.class)
@@ -13,6 +10,7 @@ public class EventParticipants {
     private String participantId;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;

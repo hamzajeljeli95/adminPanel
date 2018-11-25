@@ -1,9 +1,6 @@
 package MainPackage.Beans;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class AppUser {
@@ -13,6 +10,7 @@ public class AppUser {
     private int profile;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "username", nullable = false, length = 64)
     public String getUsername() {
         return username;

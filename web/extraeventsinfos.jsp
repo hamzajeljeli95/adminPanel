@@ -10,7 +10,7 @@
                 <div class="header">
                     <h4 class="title">Catégories des informations des événements additionelles</h4>
                     <p class="category">Liste des informations possibles</p>
-                    <a href="addedituserinfo.jsp">
+                    <a href="addediteventinfo.jsp">
                         <button class="btn btn-default pull-right">Ajouter</button>
                     </a>
                 </div>
@@ -34,7 +34,7 @@
                             <td><%= u.getInfoType() %>
                             </td>
                             <td>
-                                <a href="addedituserinfo.jsp?infoId=<%= u.getId() %>">
+                                <a href="addediteventinfo.jsp?infoId=<%= u.getId() %>">
                                     <button class="btn btn-info btn-fill center-pill">Modifier</button>
                                 </a>
                             </td>
